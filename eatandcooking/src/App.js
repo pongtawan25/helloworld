@@ -1,7 +1,9 @@
-Guide Guide
+import React from 'react'
 
-Tantacle
+const App = () => (
+  <div>
 
+  </div>
+)
 
-Hello Group 8
-
+export default App
