@@ -11,6 +11,7 @@ const App = () => (
           <h4>WELCOME TO</h4>
           <h1>COOK AND EAT</h1>
           {/* <p>LET'S COOKING AND SHARE YOUR IDEA</p> */}
+          <h1>Guide</h1>
         </div>
       </div>
     </div>
