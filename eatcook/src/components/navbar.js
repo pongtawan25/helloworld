@@ -5,50 +5,30 @@ import './../static/css/style.css'
 
 const Navbar = () => (
     <div>
-        <div className="row">
-            <ul className="nav">
-                <div className="offset-md-2 col-md-1">
-                    <li className="nav-item">
-                        <Link to="/" className="nav-link"><button >HOME</button></Link>
-                    </li>
-                </div>
-                <div className="col-md-1">
-                    <li className="nav-item">
-                        <Link to="/shareidea" className="nav-link"><button >SHARE IDEA</button></Link>
-                    </li>
-                </div>
-                <div className="col-md-1">
-                    <li className="nav-item">
-                        <Link to="/makeit" className="nav-link"><button >MAKE IT</button></Link>
-                    </li>
-                </div>
-                <div className="col-md-1">
-                    <li className="nav-item">
-                        <Link to="/rewards" className="nav-link"><button >REWARDS</button></Link>
-                    </li>
-                </div>
-                <div className="col-md-1">
-                    <li className="nav-item">
-                        <Link to="/inspiration" className="nav-link"><button>INSPIRATION</button></Link>
-                    </li>
-                </div>
-                <div className="col-md-1">
-                    <li className="nav-item">
-                        <Link to="/contactus" className="nav-link"><button>CONTACT US</button></Link>
-                    </li>
-                </div>
-                <div className="col-md-1">
-                    <li className="nav-item">
-                        <Link to="/member" className="nav-link"><button>MEMBER</button></Link>
-                    </li>
-                </div>
-                <div className="offset-md-1 col-md-1">
-                        <li className="nav-item">
-                            <a href="#" className="nav-link "><button className="btn btn-primary">LOGIN</button></a>
-                        </li>
-                    </div>
-            </ul>
+        <div className="row ">
+            <div className="offset-md-2 col-md-1 ">
+                <Link to="/"><button >HOME</button></Link>
+            </div>
+            <div className="col-md-1 spaceleft">
+                <Link to="/shareidea"><button >SHARE IDEA</button></Link>
+            </div>
+            <div className="col-md-1 spaceleft">
+                <Link to="/makeit"><button >MAKE IT</button></Link>
+            </div>
+            <div className="col-md-1 spaceleft ">
+                <Link to="/rewards"><button >REWARDS</button></Link>
+            </div>
+            <div className="col-md-1 spaceleft">
+                <Link to="/inspiration"><button>INSPIRATION</button></Link>
+            </div>
+            <div className="col-md-1 spaceleft">
+                <Link to="/contactus"><button>CONTACT US</button></Link>
+            </div>
+            {/* <div className="col-md-1 spaceleft">
+                <Link to="/member"><button>MEMBER</button></Link>
+            </div> */}
         </div>
+        
     </div>
 )
 

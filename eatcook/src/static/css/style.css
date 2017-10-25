@@ -6,8 +6,13 @@ button{
     height: 35px;
     border-style :solid;
     border-radius: 30px;
+    margin-top: 40px;
+    
 }
+.spaceleft{
+    margin-left: 30px; 
 
+}
 .textbox{
     justify-content: center;
     align-items: center;
