@@ -1,20 +1,26 @@
 import React from 'react'
 import Navbar from './components/navbar'
+import Home from './components/home'
+import Shareidea from './components/shareidea'
 import './static/css/style.css'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 const App = () => (
   <div>
-    <div class="bg1">
-      <Navbar/>
-      <div className="container ">
-        <div className="text-center">
-          <h4>WELCOME TO</h4>
-          <h1>COOK AND EAT</h1>
-          {<p>LET'S COOKING AND SHARE YOUR IDEA</p>}
-          <h1>Guide</h1>
+    <Router>
+      <div>
+        <div className="container-fluid">
+          <Navbar/>
+          <Route exact path="/" component={Home} />
+          <Route path="/shareidea" component={Shareidea}/>
+          <Route path="/shareidea" component={Shareidea}/>
+          <Route path="/shareidea" component={Shareidea}/>
+          <Route path="/shareidea" component={Shareidea}/>
+          <Route path="/shareidea" component={Shareidea}/>
+          <Route path="/shareidea" component={Shareidea}/>
         </div>
       </div>
-    </div>
+    </Router>
   </div>
 )
 

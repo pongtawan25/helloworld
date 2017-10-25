@@ -1,3 +1,11 @@
-.bg1{
-    background-image: url('./../img/wpp.jpg')
+.button{
+    
+    font-weight : 200px ;
+    font-size: 15px;
+    background-color: rgba(red, green, blue, alpha)(172, 172, 172,50);
+    width: 120px;
+    height: 35px;
+    border-style :solid;
+    border-radius: 30px;
+   
 }
