@@ -1,6 +1,4 @@
 import React from 'react'
-import Home from './home'
-import Shareidea from './shareidea'
 import { Link } from 'react-router-dom'
 import './../static/css/bootstrap.min.css'
 import './../static/css/style.css'

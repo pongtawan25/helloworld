@@ -2,7 +2,8 @@ import React from 'react'
 
 
 const Shareidea = () =>(
-    <div>      
+    <div>
+        <h1>Share</h1>      
     </div>
 )
 
