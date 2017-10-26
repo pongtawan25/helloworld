@@ -5,30 +5,30 @@ import './../static/css/style.css'
 
 const Navbar = () => (
     <div>
-        <div className="row ">
-            <div className="offset-md-2 col-md-1 ">
-                <Link to="/"><button >HOME</button></Link>
+        <div className="container">
+            <div className="row justify-content-center">
+                <div className="offset-md-2 col-md">
+                    <Link to="/"><button className="bg-light buttonnav">HOME</button></Link>
+                </div>
+                <div className="col-md">
+                    <Link to="/shareidea"><button className="buttonnav">SHARE'IDEA</button></Link>
+                </div>
+                <div className="col-md">
+                    <Link to="/makeit"><button className="buttonnav">MAKE IT</button></Link>
+                </div>
+                <div className="col-md">
+                    <Link to="/rewards"><button className="buttonnav">REWARDS</button></Link>
+                </div>
+                <div className="col-md">
+                    <Link to="/inspiration"><button className="buttonnav">INSPIRATION</button></Link>
+                </div>
+                <div className="col-md">
+                    <Link to="/contactus"><button className="buttonnav">CONTACT'US</button></Link>
+                </div>
+                <div className="offset-md-2">
+                </div>
             </div>
-            <div className="col-md-1 spaceleft">
-                <Link to="/shareidea"><button >SHARE IDEA</button></Link>
-            </div>
-            <div className="col-md-1 spaceleft">
-                <Link to="/makeit"><button >MAKE IT</button></Link>
-            </div>
-            <div className="col-md-1 spaceleft ">
-                <Link to="/rewards"><button >REWARDS</button></Link>
-            </div>
-            <div className="col-md-1 spaceleft">
-                <Link to="/inspiration"><button>INSPIRATION</button></Link>
-            </div>
-            <div className="col-md-1 spaceleft">
-                <Link to="/contactus"><button>CONTACT US</button></Link>
-            </div>
-            {/* <div className="col-md-1 spaceleft">
-                <Link to="/member"><button>MEMBER</button></Link>
-            </div> */}
         </div>
-        
     </div>
 )
 

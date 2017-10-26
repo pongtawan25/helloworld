@@ -1,18 +1,23 @@
-button{
+.buttonnav{
     font-weight : 200px ;
-    font-size: 15px;
+    font-size: 13px;
     background-color: rgba(red, green, blue, alpha)(172, 172, 172,50);
-    width: 120px;
-    height: 35px;
     border-style :solid;
     border-radius: 30px;
     margin-top: 40px;
     
 }
-.spaceleft{
-    margin-left: 30px; 
 
+.padlogin{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight : 200px ;
+    font-size: 10px;
+    background-color: rgba(red, green, blue, alpha)(172, 172, 172,50);
+    border-style :solid;
+    border-radius: 30px;
 }
+
 .textbox{
     justify-content: center;
     align-items: center;
