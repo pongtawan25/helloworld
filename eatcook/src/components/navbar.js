@@ -29,6 +29,15 @@ const Navbar = () => (
                 </div>
             </div>
         </div>
+            <div className="container-fulid">
+                <div className="row ">
+                    <div className="col-12">
+                        <div className="text-right">
+                            <Link to="#"><button className="buttonnav">LOGIN</button></Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </div>
 )
 
