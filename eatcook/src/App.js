@@ -10,6 +10,7 @@ import member from './components/member'
 import Youridea from './components/youridea'
 import Learnandcook from './components/learnandcook'
 import Startidea from './components/startidea'
+import Goodtest from './components/goodtest'
 import './static/css/style.css'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
@@ -29,6 +30,7 @@ const App = () => (
           <Route path="/youridea" component={Youridea}/>
           <Route path="/learnandcook" component={ Learnandcook}/>
           <Route path="/startidea" component={Startidea}/>
+          <Route path="/goodtest" component={Goodtest}/>
         </div>
       </div>
     </Router>
