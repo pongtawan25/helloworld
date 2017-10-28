@@ -33,7 +33,7 @@ const Navbar = () => (
                 <div className="row ">
                     <div className="col-12">
                         <div className="text-right">
-                            <Link to="#"><button className="buttonnav">LOGIN</button></Link>
+                            <a href="#"><button className="buttonnav">LOGIN</button></a>
                         </div>
                     </div>
                 </div>
