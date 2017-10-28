@@ -1,9 +1,13 @@
 import React from 'react'
 
 
-const Inspiration = () =>(
+const Inspiration = () => (
     <div>
-        <h1>Ins</h1>      
+        <div className="row text-center">
+            <div className="col-md-3">
+                
+            </div>
+        </div>
     </div>
 )
 
