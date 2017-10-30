@@ -8,7 +8,7 @@ const Navbar = () => (
         <div className="container">
             <div className="row justify-content-center">
                 <div className="offset-md-2 col-md">
-                    <Link to="/"><button className="bg-light buttonnav">HOME</button></Link>
+                    <Link to="/"><button className="buttonnav">HOME</button></Link>
                 </div>
                 <div className="col-md">
                     <Link to="/shareidea"><button className="buttonnav">SHARE'IDEA</button></Link>
@@ -31,7 +31,7 @@ const Navbar = () => (
         </div>
             <div className="container-fulid">
                 <div className="row ">
-                    <div className="col-12">
+                    <div className="col-11">
                         <div className="text-right">
                             <a href="#"><button className="buttonnav">LOGIN</button></a>
                         </div>

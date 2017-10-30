@@ -9,8 +9,7 @@ const Youridea = () => (
             <Navbar />
             <div className="row textboxtop">
                 <div className="text-center">
-                    <h1> LET'S SHEAR YOUR IDEA </h1>
-                    <Link to="/startidea"><button className="buttonnav">START IDEA</button></Link>
+                    <h1> LET'S SHEAR YOUR IDEA  <br/> <Link to="/startidea"><button className="buttonnav">START IDEA</button></Link></h1>  
                 </div>
             </div>
         </div>
