@@ -4,9 +4,32 @@
     background-color: rgba(red, green, blue, alpha)(172, 172, 172,50);
     border-style :solid;
     border-radius: 30px;
-    margin-top: 40px;
-    
+    margin-top: 40px;   
 }
+
+.textbox{
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 75vh;
+}
+
+
+.texthadeleft{
+    
+    justify-content: left;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 75vh;
+}
+
+.texthaderight{
+    justify-content: right;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 75vh;   
+}
+
 .buttonlearn{
     font-weight : 200px ;
     color: white ;
@@ -20,43 +43,38 @@
     
 }
 
-.padlogin{
-    padding-left: 30px;
-    padding-right: 30px;
-    font-weight : 200px ;
-    font-size: 13px;
-    background-color: rgba(red, green, blue, alpha)(172, 172, 172,50);
-    border-style :solid;
-    border-radius: 30px;
-}
-
-.textbox{
+.textboxtop{
     justify-content: center;
     align-items: center;
     min-width: 100vw;
-    min-height: 75vh;
+    min-height: 20vh;
 }
-.texthadeleft{
 
-    justify-content: left;
-    align-items: center;
-    min-width: 100vw;
-    min-height: 75vh;
-}
-.texthaderight{
-        justify-content: right;
-        align-items: center;
-        min-width: 100vw;
-        min-height: 75vh;   
-    }
-.textboxtop{
-        justify-content: center;
-        align-items: center;
-        min-width: 100vw;
-        min-height: 20vh;
-    }
 .login {
     justify-content: right;
     align-items: center;
+}
 
+.bghome { 
+    background-image: url("./../img/home.jpg");
+    height: 100vh; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgsharidea { 
+    background-image: url("./../img/share idea.jpg");
+    height: 100vh; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgstartidea { 
+    background-image: url("./../img/let share.jpg");
+    height: 100vh; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

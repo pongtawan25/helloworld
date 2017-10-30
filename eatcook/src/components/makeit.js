@@ -1,9 +1,12 @@
 import React from 'react'
+import Navbar from './navbar'
 import { Link } from 'react-router-dom'
 import './../static/css/style.css'
 
 
-const Makeit = () =>(
+const Makeit = () => (
+    <div>
+        <Navbar />
         <div className="row texthaderight ">
             <div className="col-md-6 ">
                 <div className="text-center">
@@ -11,6 +14,7 @@ const Makeit = () =>(
                 </div>
             </div>
         </div>
+    </div>
 )
 
 export default Makeit
