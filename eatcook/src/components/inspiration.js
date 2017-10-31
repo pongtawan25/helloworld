@@ -12,10 +12,7 @@ const Inspiration = () => (
                 <div className="col-md-6 ">
                     <div className="text-center">
                         <h1> INSPIRATION  <br /> </h1>
-                    <p>uiuuuuuuuuuyyyjwdefrgthyjuidefrgthyjuikerfgthyjuikerfgt
-                        hyjurfgthyyjwdefrgthyjuidefrgthyjuikerfgthyjuikerfgt
-                        hyjurfgthyujyjwdefrgthyjuidefrgthyjuikerfgthyjuikerfgt
-                        hyjurfgthyujuj</p>
+                    <p> การประกอบอาหาร</p>
                     </div>
                 </div>
         </div>       

@@ -1,4 +1,5 @@
 import React from 'react'
+import Navbar from './components/navbar'
 import Home from './components/home'
 import Shareidea from './components/shareidea'
 import Makeit from './components/makeit'
@@ -16,6 +17,8 @@ const App = () => (
   <div>
     <Router>
       <div>
+        <div className="container-fluid">
+        <Navbar/>
         <Route exact path="/" component={Home} />
         <Route path="/shareidea" component={Shareidea} />
         <Route path="/makeit" component={Makeit} />
@@ -27,6 +30,7 @@ const App = () => (
         <Route path="/learnandcook" component={Learnandcook} />
         <Route path="/startidea" component={Startidea} />
         <Route path="/goodtest" component={Goodtest} />
+        </div>
       </div>
     </Router>
   </div>

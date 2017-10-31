@@ -1,8 +1,7 @@
 import React from 'react'
 
 const Contactus = () =>(
-    <div>
-             
+    <div>    
     </div>
 )
 
