@@ -1,29 +1,48 @@
-.buttonnav{
+@font-face{
+    font-family: Artland;
+    src: url("./../fonts/Artland Vintage  (ใส่ตรงคำว่า welcome to อันเดียว).ttf")
+}
+@font-face{
+    font-family: Bangna;
+    src: url("./../fonts/bangna-new  (ภาษาไทย).ttf")
+}
+@font-face{
+    font-family: UmpquaBold;
+    src: url("./../fonts/UmpquaBold  (คำภาษาอังกฤษทั่วไป).otf")
+}
+.colortexthome{
+    font-family: Artland;
     color: white;
-    font-weight : 200px ;
-    font-size: 11px;
-    background-color: rgba(172, 172, 172, 0.4);
-    border-style :none;
-    border-radius: 30px;
-    margin-top: 40px; 
-    padding-left: 15px;  
-    padding-right: 15px;
-    padding-top: 4px;
-    padding-bottom: 3px;
+    font-size: 60px;
+}
+.button{
     
 }
 
-.textbox{
+
+.btn-custom{
+    color: white;
+    font-size: 11px;
+    background-color: rgba(172, 172, 172, 0.4);
+    border-radius: 30px;
+    margin-top: 40px;
+    width: 90px;
+}
+.navv{
+    position: absolute;
+    width: 100vw;
+}
+
+.textboxhome{
     justify-content: center;
     align-items: center;
     min-width: 100vw;
-    min-height: 70vh;
-    color: white;   
+    min-height: 100vh;
+    background-image: url('./../img/home.jpg')   
 }
 
-
 .texthadeleft{
-    
+
     justify-content: left;
     align-items: center;
     min-width: 100vw;
@@ -87,4 +106,13 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.bginspiration{
+    background-image: url("./../img/share idea.jpg");
+    height: 97.5vh; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vw;
 }

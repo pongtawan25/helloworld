@@ -5,41 +5,30 @@ import './../static/css/style.css'
 
 const Navbar = () => (
     <div>
-        <div className="container">
-            <div className="row">
-                <div className="offset-md-2 col-md">
-                    <Link to="/"><button className="buttonnav">HOME</button></Link>
-                </div>
-                <div className="col-md">
-                    <Link to="/shareidea"><button className="buttonnav">SHARE'IDEA</button></Link>
-                </div>
-                <div className="col-md">
-                    <Link to="/makeit"><button className="buttonnav">MAKE IT</button></Link>
-                </div>
-                <div className="col-md">
-                    <Link to="/rewards"><button className="buttonnav">REWARDS</button></Link>
-                </div>
-                <div className="col-md">
-                    <Link to="/inspiration"><button className="buttonnav">INSPIRATION</button></Link>
-                </div>
-                <div className="col-md">
-                    <Link to="/contactus"><button className="buttonnav">CONTACT'US</button></Link>
-                </div>
-                <div className="offset-md-1 col-md">
-                    <a href="#"><button className="buttonnav">LOGIN</button></a>
-                    
-                </div>
+        <div className="row navv">
+            <div className="offset-md-3 col-md-1">
+                <Link to="/"><button className="btn btn-custom">HOME</button></Link>
+            </div>
+            <div className="col-md-1">
+                <Link to="/shareidea"><button className="btn btn-custom">SHARE IDEA</button></Link>
+            </div>
+            <div className="col-md-1">
+                <Link to="/makeit"><button className="btn btn-custom">MAKE IT</button></Link>
+            </div>
+            <div className="col-md-1">
+                <Link to="/rewards"><button className="btn btn-custom">REWARDS</button></Link>
+            </div>
+            <div className="col-md-1">
+                <Link to="/inspiration"><button className="btn btn-custom">INSPIRATION</button></Link>
+            </div>
+            <div className="col-md-1">
+                <Link to="/contactus"><button className="btn btn-custom">CONTACT US</button></Link>
+            </div>
+            <div className="offset-md-2 col-md-1">
+                <a href="#"><button className="btn btn-custom">LOGIN</button></a>
+
             </div>
         </div>
-            {/* <div className="container-fulid">
-                <div className="row ">
-                    <div className="col-11">
-                        <div className="text-right">
-                            <a href="#"><button className="buttonnav">LOGIN</button></a>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
     </div>
 )
 
