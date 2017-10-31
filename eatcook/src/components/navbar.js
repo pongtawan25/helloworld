@@ -6,7 +6,7 @@ import './../static/css/style.css'
 const Navbar = () => (
     <div>
         <div className="container">
-            <div className="row justify-content-center">
+            <div className="row">
                 <div className="offset-md-2 col-md">
                     <Link to="/"><button className="buttonnav">HOME</button></Link>
                 </div>
@@ -25,11 +25,13 @@ const Navbar = () => (
                 <div className="col-md">
                     <Link to="/contactus"><button className="buttonnav">CONTACT'US</button></Link>
                 </div>
-                <div className="offset-md-2">
+                <div className="offset-md-1 col-md">
+                    <a href="#"><button className="buttonnav">LOGIN</button></a>
+                    
                 </div>
             </div>
         </div>
-            <div className="container-fulid">
+            {/* <div className="container-fulid">
                 <div className="row ">
                     <div className="col-11">
                         <div className="text-right">
@@ -37,7 +39,7 @@ const Navbar = () => (
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
     </div>
 )
 
