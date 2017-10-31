@@ -1,12 +1,44 @@
 .buttonnav{
+    color: white;
     font-weight : 200px ;
-    font-size: 13px;
-    background-color: rgba(red, green, blue, alpha)(172, 172, 172,50);
-    border-style :solid;
+    font-size: 11px;
+    background-color: rgba(172, 172, 172, 0.4);
+    border-style :none;
     border-radius: 30px;
-    margin-top: 40px;
+    margin-top: 40px; 
+    padding-left: 15px;  
+    padding-right: 15px;
+    padding-top: 4px;
+    padding-bottom: 3px;
     
 }
+
+.textbox{
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 75vh;
+    color: white;   
+}
+
+
+.texthadeleft{
+    
+    justify-content: left;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 70vh;
+    color: white ;
+}
+
+.texthaderight{
+    justify-content: right;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 75vh;
+    color: white ;
+}
+
 .buttonlearn{
     font-weight : 200px ;
     color: white ;
@@ -20,43 +52,39 @@
     
 }
 
-.padlogin{
-    padding-left: 30px;
-    padding-right: 30px;
-    font-weight : 200px ;
-    font-size: 13px;
-    background-color: rgba(red, green, blue, alpha)(172, 172, 172,50);
-    border-style :solid;
-    border-radius: 30px;
-}
-
-.textbox{
+.textboxtop{
     justify-content: center;
     align-items: center;
     min-width: 100vw;
-    min-height: 75vh;
+    min-height: 10vh;
+    color: white ;
 }
-.texthadeleft{
 
-    justify-content: left;
-    align-items: center;
-    min-width: 100vw;
-    min-height: 75vh;
-}
-.texthaderight{
-        justify-content: right;
-        align-items: center;
-        min-width: 100vw;
-        min-height: 75vh;   
-    }
-.textboxtop{
-        justify-content: center;
-        align-items: center;
-        min-width: 100vw;
-        min-height: 20vh;
-    }
 .login {
     justify-content: right;
     align-items: center;
+}
 
+.bghome { 
+    background-image: url("./../img/home.jpg");
+    height: 97.5vh; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgsharidea { 
+    background-image: url("./../img/share idea.jpg");
+    height: 97.5vh; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgstartidea { 
+    background-image: url("./../img/let share.jpg");
+    height: 97.5vh; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
