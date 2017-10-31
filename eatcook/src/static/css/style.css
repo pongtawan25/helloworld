@@ -88,3 +88,12 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.bginspiration{
+    background-image: url("./../img/share idea.jpg");
+    height: 97.5vh; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vw;
+}
