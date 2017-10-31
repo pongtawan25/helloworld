@@ -23,7 +23,7 @@ const App = () => (
         <Route path="/inspiration" component={inspiration} />
         <Route path="/contactus" component={contactus} />
         <Route path="/member" component={member} />
-        <Route path="/youridea" component={Youridea} />
+        {/* <Route path="/youridea" component={Youridea} /> */}
         <Route path="/learnandcook" component={Learnandcook} />
         <Route path="/startidea" component={Startidea} />
         <Route path="/goodtest" component={Goodtest} />
