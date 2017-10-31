@@ -6,7 +6,6 @@ import './../static/css/style.css'
 
 const Makeit = () => (
     <div>
-        <Navbar />
         <div className="row texthaderight ">
             <div className="col-md-6 ">
                 <div className="text-center">

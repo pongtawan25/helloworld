@@ -5,12 +5,9 @@ import './../static/css/style.css'
 
 const Youridea = () => (
     <div>
-        <div className="bgstartidea">
-            <Navbar />
-            <div className="row textboxtop">
-                <div className="text-center">
-                    <h1> LET'S SHEAR YOUR IDEA  <br/> <Link to="/startidea"><button className="buttonnav">START IDEA</button></Link></h1>  
-                </div>
+        <div className="row textboxtop">
+            <div className="text-center">
+                <h1> LET'S SHEAR YOUR IDEA  <br /> <Link to="/startidea"><button className="buttonnav">START IDEA</button></Link></h1>
             </div>
         </div>
     </div>

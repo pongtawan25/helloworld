@@ -5,9 +5,8 @@ import './../static/css/style.css'
 
 
 const Goodtest = () => (
-<div>
-        <Navbar/>
-</div>
+        <div>
+        </div>
 )
 
 export default Goodtest
