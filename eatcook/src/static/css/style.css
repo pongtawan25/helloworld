@@ -55,6 +55,29 @@ body{
     margin-top: 10px;
     width: 130px;
 }
+.btn-nav{
+    color: white;
+    font-size: 12px;
+    background-color: rgba(172, 172, 172, 0.4);
+    border-radius: 30px;
+    padding-bottom: 23px;
+    height: 26px;
+    width: 130px;
+    margin-right: 10px;
+    /* margin-right: 10px; */
+}
+.btn-nav-login{
+    color: white;
+    font-size: 12px;
+    background-color:#000;
+    border-radius: 30px;
+    border: 1.4px solid rgba(219, 217, 217, 0.404);
+    padding-bottom: 23px;
+    height: 26px;
+    width: 100px;
+    margin-left: 40px;
+    
+}
 .bghome{
     background-position: center;
     background-repeat: no-repeat;
@@ -507,6 +530,10 @@ span.input-help > input {
     width: 100vw;
     z-index: 1;
     padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
 }
 
 
