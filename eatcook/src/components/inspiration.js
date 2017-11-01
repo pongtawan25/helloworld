@@ -6,6 +6,7 @@ import './../static/css/style.css'
 const Inspiration = () => (
     
     <div>
+            <Navbar />
         <div className="row bginspiration">
             <div className="offset-md-1 col-md-4">
                 <div className="text-center">

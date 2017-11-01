@@ -4,11 +4,13 @@ import img2 from './../static/img/051121056-01-spaghetti-carbonara-recipe-main.j
 import img3 from './../static/img/lentil-spinach-tomato-salad-50528-1.jpeg'
 import img4 from './../static/img/photo-1471102204080-fe99e6db4ef0.jpg'
 import { Link } from 'react-router-dom'
+import Navbar from './navbar'
 import './../static/css/style.css'
 
 const Learnandcook = () => (
    
     <div>
+            <Navbar />
         <div className="row bglearnandcook">
             <div className="offset-md-3 col-md-6">
                 <div className="text-center">
