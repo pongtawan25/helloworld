@@ -108,11 +108,45 @@
     background-size: cover;
 }
 .bginspiration{
-    background-image: url("./../img/share idea.jpg");
-    height: 97.5vh; 
+    background-image: url("./../img/aaaa.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
     min-width: 100vw;
+}
+
+.insfont{
+    font-size: 30px;
+}
+
+.box{
+    margin-top: 150px;
+    background-color: black;
+    height: 250px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.ff{
+    color: #fff;
+}
+
+.bgcontactus{
+    background-image: url("./../img/bbb.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 40vh;
+    min-width: 100vw;
+}
+
+.inshead{
+    color: #fff;
+    margin-top: 150px;
+    font-size: 50px;
 }
