@@ -9,7 +9,7 @@ const Login = () => (
     <div class="row">
         <div class="col-sm-8  bglogin bgmainlogin animated fadeInRight">
           <img className="picporklogin" src={pichome} />
-          <h1 className="textcook textlogin">COOK AND EAT</h1>
+          <h1 className="textlogin">COOK AND EAT</h1>
           <Link to="/"><button className="btn btn-backtohome hvr-icon-back hvr-grow-shadow">Back to page</button></Link>
         </div>
 
