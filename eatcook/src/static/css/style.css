@@ -44,7 +44,13 @@
 }
 .btn-custom2{
     color: white;
+<<<<<<< HEAD
     font-size: 14px;
+=======
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+>>>>>>> 213005cd09500cd9b3a65b347295d56b39e49388
     background-color: rgba(172, 172, 172, 0.4);
     border-radius: 30px;
     padding-bottom: 28px;
@@ -198,6 +204,29 @@
     border-radius: 70%;
     width: 340px;
     height: 340px;
+}
+.bggoodtest{
+    background-repeat: no-repeat;
+    background-position: left;
+    min-height: 100vh;
+    background-image: url('./../img/photo-1507048331197-7d4ac70811cf.jpg')
+}
+.img1{
+    width: 500px;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+}
+.img2{
+    width: 300px;
+}
+.textgoodtest{
+    color: white;
+    margin-top: 120px;
+}
+.textgoodtest2{
+    font-family: Bangna;
+    color: black;
+    margin-top: 200px;
 }
 /* Tan */
 
@@ -417,29 +446,37 @@ span.input-help > input {
 }
 .box{
     margin-top: 150px;
-    background-color: black;
-    height: 250px;
+    background-color: rgb(0, 0, 43);
     border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+    width: 250px;
+    height: 250px;
+    color: white;
 }
 .ff{
     color: #fff;
 }
-
 .bgcontactus{
     background-image: url("./../img/bbb.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 40vh;
+    min-height: 80vh;
     min-width: 100vw;
 }
 .inshead{
     color: #fff;
     margin-top: 150px;
-    font-size: 50px;
+    margin-left: 40px;
+    font-size: 30px;
+}
+.test{
+    color: white;
+    font-family: Bangna;
+    margin-left: 40px;
+}
+.logoconmem{
+    width: 150px;
+    height: 150px;
 }
 /* Arm */
 .btn-custom{
