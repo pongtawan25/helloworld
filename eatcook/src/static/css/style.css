@@ -28,11 +28,11 @@
     font-size: 60px;
     padding-top: 100px;
 }
-.textcook{
+/* .textcook{
     font-family: UmpquaBold;
     color: white;
     font-size: 60px;
-}
+} */
 .textlet{
     color: white;
     font-size: 18px;
@@ -250,34 +250,39 @@
 
 .bglogin{
     text-align: center;    
+    padding-top: 20vh;
  
+}
+
+.picporklogin{
+    width: 80px;
+    margin-bottom: 30px;
 }
 .bgmainlogin{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('./../img/photo-1489806149968-aee262986b40.jpg')  
+    background-image: url('./../img/photo-1489806149968-aee262986b40.jpg')  ;
+    min-height: 100vh;
 }
 .textlogin{
     color:rgb(255, 255, 255);
-    font-size: 60px;
-    justify-content: center;
-    align-items: center;
+    font-size:55px;
+    font-family: UmpquaBold;
+    
+  
 
 }
 
 .bglogincomponent{
     background-color: #0E0D1E;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .textlogincomponent{
     text-align: center;
     color:rgb(255, 255, 255);
-}
-
-.height100{
-    padding-bottom: -50%;
-    margin-bottom: -100%;
 }
 
 marginlogologin{
