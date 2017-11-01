@@ -7,7 +7,7 @@ const Home = () => (
 
   <div>
     <Navbar />
-    <div className="row bghome">
+    <div className="row bghome animated fadeIn">
       <div className="text-center">
         <h4 className="textwel animated fadeInUp">Welcome to</h4>
         <h1 className="textcook animated fadeInUp">COOK AND EAT</h1>
