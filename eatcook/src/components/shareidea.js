@@ -8,17 +8,16 @@ import Navbar from './navbar'
 
 const Shareidea = () => (
     <div>
-        <Navbar/>
+        <Navbar />
         <div className="row bgsharidea ">
-            <div className="col-md-8 ">
-                <div className="text-center ">
-                    <img className="paddingbot" src={picshare} width="140px" />
+            <div className="offset-md-2 col-md">
+                    <img className="logoshare" src={picshare} width="170px" />
                     <h1 className="textcook">SHARE</h1>
-                    <Link to="/youridea"><button className="btn btn-custom2">YOUR IDEA</button></Link>
+                    <div className="logoshare "> <Link to="/youridea"><button className="btn btn-custom2 ">YOUR IDEA</button></Link></div>
                 </div>
             </div>
         </div>
-    </div>
+    
 
 
 )
