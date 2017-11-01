@@ -5,8 +5,8 @@ const Home = () => (
     <div className="row bghome">
       <div className="text-center">
         <h4 className="colortexthome">Welcome to</h4>
-        <h1>COOK AND EAT</h1>
-        <p>LET'S COOKING AND SHARE YOUR IDEA</p>
+        <h1 className="colortexthomesub">COOK AND EAT</h1>
+        <p className="colortexthomesub">LET'S COOKING AND SHARE YOUR IDEA</p>
       </div>
     </div>
   </div>
