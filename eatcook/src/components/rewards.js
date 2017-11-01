@@ -14,7 +14,7 @@ const Rewards = () => (
                     </div>
                     <img className= "logore" src={picrewards} width="160px" />
                     <h1 className="textcook">REWARDS</h1>
-                    <Link to="/goodtest"><button className="btn btn-custom2">GOOD TASTE</button></Link>
+                    <Link to="/goodtest"><button className="btn btn-custom2 hvr-fadenavbar hvr-grow-shadow">GOOD TASTE</button></Link>
                 </div>
             </div>
         </div>

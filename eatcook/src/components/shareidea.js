@@ -13,7 +13,7 @@ const Shareidea = () => (
             <div className="offset-md-2 col-md">
                     <img className="logoshare" src={picshare} width="170px" />
                     <h1 className="textcook">SHARE</h1>
-                    <div className="logoshare "> <Link to="/youridea"><button className="btn btn-custom2 ">YOUR IDEA</button></Link></div>
+                    <div className="logoshare "> <Link to="/youridea"><button className="btn btn-custom2 hvr-fadenavbar hvr-grow-shadow">YOUR IDEA</button></Link></div>
                 </div>
             </div>
         </div>

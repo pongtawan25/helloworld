@@ -11,7 +11,7 @@ const Youridea = () => (
         <div className="row bgyouridea ">
             <div className="offset-md col-md text-center">
                 <h1 className="textyoueidea">LET'S SHARE YOUR IDEA  
-                    <br/><Link to="/startidea"><button className="btn btn-custom2 ">SHARE IDEA</button></Link></h1>            
+                    <br/><Link to="/startidea"><button className="btn btn-custom2 hvr-fadenavbar hvr-grow-shadow ">SHARE IDEA</button></Link></h1>            
             </div>
         </div>
     </div>

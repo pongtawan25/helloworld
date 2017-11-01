@@ -14,7 +14,7 @@ const Makeit = () => (
                 <div className="text-center">
                     <img className="logo" src={logo1} />
                     <h1 className="colortextmakeit"> MAKE IT </h1>
-                    <Link to="/learnandcook"><button className="btn buttonlearnandcook">LEARN AND COOK </button></Link>
+                    <Link to="/learnandcook"><button className="btn buttonlearnandcook hvr-fadenavbar hvr-grow-shadow">LEARN AND COOK </button></Link>
                 </div>
             </div>
         </div>
