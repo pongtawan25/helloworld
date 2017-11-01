@@ -4,6 +4,7 @@ import './../static/css/style.css'
 import { Link } from 'react-router-dom'
 
 const Learnandcook = () => (
+   
     <div>
         <Navbar />
         <div className="row textboxtop">

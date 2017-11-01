@@ -4,6 +4,7 @@ import './../static/css/style.css'
 
 
 const Inspiration = () => (
+    
     <div>
         <Navbar />
         

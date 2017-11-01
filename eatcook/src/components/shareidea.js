@@ -5,7 +5,9 @@ import './../static/css/style.css'
 
 
 const Shareidea = () => (
+    
     <div>
+        <Navbar />
         <div className="row texthadeleft">
             <div className="col-md-6 ">
                 <div className="text-center">

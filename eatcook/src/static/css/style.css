@@ -20,18 +20,13 @@
     color: white;
 }
 
-.button{
-    
-}
-
-
 .btn-custom{
     color: white;
-    font-size: 11px;
+    font-size: 18px;
     background-color: rgba(172, 172, 172, 0.4);
     border-radius: 30px;
     margin-top: 40px;
-    width: 90px;
+    width: 140px;
 }
 .navv{
     position: absolute;
@@ -155,4 +150,28 @@
     color: #fff;
     margin-top: 150px;
     font-size: 50px;
+}
+
+.btn-login{
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    margin-top: 40px;
+    width: 150px;
+}
+
+.login-bg-navbar{
+    background-color: #000000
+}
+
+.boxcenter {
+    padding: 40% 0;
+    border: 3px solid green;
+    position: center center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    
 }
