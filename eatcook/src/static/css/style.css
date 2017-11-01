@@ -10,23 +10,41 @@
     font-family: UmpquaBold;
     src: url("./../fonts/UmpquaBold  (คำภาษาอังกฤษทั่วไป).otf")
 }
+<<<<<<< HEAD
 .textwel{
+=======
+
+.colortexthome{
+>>>>>>> b6202654a962e5488ce50914a805886b26dc2285
     font-family: Artland;
-    color: white;
+    color:rgba(172, 172, 172, 0.4);
     font-size: 60px;
     opacity: 0.7;
     padding-top: 100px;
 }
+<<<<<<< HEAD
 .textcook{
     font-family: UmpquaBold;
     color: white;
     font-size: 60px;
     
+=======
+<<<<<<< HEAD
+.colortextmakeit{
+    font-family: UmpquaBold;
+    color:white;
+    font-size: 60px;
+}
+.colortextlogin{
+    font-family: UmpquaBold;
+    color:white;
+>>>>>>> b6202654a962e5488ce50914a805886b26dc2285
 }
 .textlet{
     color: white;
     font-size: 18px;
 
+<<<<<<< HEAD
 }
 .btn-custom2{
     color: white;
@@ -36,28 +54,55 @@
     background-color: rgba(172, 172, 172, 0.4);
     border-radius: 30px;
     width: 180px;
-}
-
-.btn-custom{
+=======
+.buttonlearnandcook{
     color: white;
     font-size: 11px;
     background-color: rgba(172, 172, 172, 0.4);
     border-radius: 30px;
+    width: 120px;
+    height: 26px;
+=======
+
+.colortexthomesub{
+    color: white;
+>>>>>>> 9924a0ca7bbf0151969dd4805a1ab2e3f01bc550
+>>>>>>> b6202654a962e5488ce50914a805886b26dc2285
+}
+
+.btn-custom{
+    color: white;
+    font-size: 18px;
+    background-color: rgba(172, 172, 172, 0.4);
+    border-radius: 30px;
     margin-top: 40px;
+<<<<<<< HEAD
     width: 90px;
+    height: 26px;
+=======
+    width: 140px;
+>>>>>>> 9924a0ca7bbf0151969dd4805a1ab2e3f01bc550
 }
 .navv{
     position: absolute;
     width: 100vw;
+    z-index: 1;
 }
 
 .bghome{
+<<<<<<< HEAD
+=======
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+>>>>>>> b6202654a962e5488ce50914a805886b26dc2285
     justify-content: center;
     align-items: center;
     min-width: 100vw;
     min-height: 100vh;
     background-image: url('./../img/home.jpg')   
 }
+<<<<<<< HEAD
 .bgsharidea { 
     justify-content: center;
     align-items: center;
@@ -81,7 +126,45 @@
     
 }
 .texthadeleft{
+=======
 
+.bgmakeit{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: url('./../img/photo-1428515613728-6b4607e44363.jpg')   
+}
+
+.bgshareidea{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: url('./../img/share idea.jpg')   
+}
+
+.bglearnandcook{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100vw;
+    min-height: 40vh;
+    background-color: rgb(0, 0, 43);
+}
+
+.bglogin{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: url('./../img/photo-1489806149968-aee262986b40.jpg') 
+}
+>>>>>>> b6202654a962e5488ce50914a805886b26dc2285
+
+.texthadeleft{
     justify-content: left;
     align-items: center;
     min-width: 100vw;
@@ -97,19 +180,6 @@
     color: white ;
 }
 
-.buttonlearn{
-    font-weight : 200px ;
-    color: white ;
-    font-size: 25px;
-    background-color: rgba(red, green, blue, alpha)(172, 172, 172,50);
-    border-style :solid;
-    border-radius: 10px;
-    margin-top: 40px;
-    padding-right: 30px ;
-    padding-left: 30px ;
-    
-}
-
 .textboxtop{
     justify-content: center;
     align-items: center;
@@ -118,11 +188,104 @@
     color: white ;
 }
 
-.login {
-    justify-content: right;
-    align-items: center;
+.logo{
+    width: 150px;
+    margin-bottom: 20px;
+}
+.logologin{
+    width: 100px;
+    margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
 .paddingbot{
     padding-bottom: 20px;
+=======
+.bgstartidea { 
+    background-image: url("./../img/let share.jpg");
+    height: 97.5vh; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bginspiration{
+    background-image: url("./../img/aaaa.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.insfont{
+    font-size: 30px;
+}
+
+.box{
+    margin-top: 150px;
+    background-color: black;
+    height: 250px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.ff{
+    color: #fff;
+}
+
+.bgcontactus{
+    background-image: url("./../img/bbb.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 40vh;
+    min-width: 100vw;
+}
+
+.inshead{
+    color: #fff;
+    margin-top: 150px;
+    font-size: 50px;
+}
+
+<<<<<<< HEAD
+.textlearn{
+    margin-top: 120px;
+    font-family: UmpquaBold;
+    color: white;
+}
+
+.imglearn{
+    border-radius: 70%;
+    width: 340px;
+    height: 340px;
+=======
+.btn-login{
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    margin-top: 40px;
+    width: 150px;
+}
+
+.login-bg-navbar{
+    background-color: #000000
+}
+
+.boxcenter {
+    padding: 40% 0;
+    border: 3px solid green;
+    position: center center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    
+>>>>>>> 9924a0ca7bbf0151969dd4805a1ab2e3f01bc550
+>>>>>>> b6202654a962e5488ce50914a805886b26dc2285
 }
