@@ -25,8 +25,7 @@ const Navbar = () => (
                 <Link to="/contactus"><button className="btn btn-custom">CONTACT US</button></Link>
             </div>
             <div className="offset-md-2 col-md-1">
-                <a href="#"><button className="btn btn-custom">LOGIN</button></a>
-
+                <Link to="/login"><button className="btn btn-custom">LOGIN</button></Link>
             </div>
         </div>
     </div>

@@ -6,11 +6,11 @@ import Makeit from './components/makeit'
 import rewards from './components/rewards'
 import inspiration from './components/inspiration'
 import contactus from './components/contactus'
-import member from './components/member'
 import Youridea from './components/youridea'
 import Learnandcook from './components/learnandcook'
 import Startidea from './components/startidea'
 import Goodtest from './components/goodtest'
+import Login from './components/login'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 const App = () => (
@@ -25,11 +25,11 @@ const App = () => (
         <Route path="/rewards" component={rewards} />
         <Route path="/inspiration" component={inspiration} />
         <Route path="/contactus" component={contactus} />
-        <Route path="/member" component={member} />
         <Route path="/youridea" component={Youridea} />
         <Route path="/learnandcook" component={Learnandcook} />
         <Route path="/startidea" component={Startidea} />
         <Route path="/goodtest" component={Goodtest} />
+        <Route path="/login" component={Login} />
         </div>
       </div>
     </Router>

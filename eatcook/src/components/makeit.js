@@ -1,15 +1,17 @@
 import React from 'react'
-import Navbar from './navbar'
+import logo1 from './../static/img/gloves.png'
 import { Link } from 'react-router-dom'
 import './../static/css/style.css'
 
 
 const Makeit = () => (
     <div>
-        <div className="row texthaderight ">
-            <div className="col-md-6 ">
+        <div className="row bgmakeit">
+            <div className="offset-md-8 col-md-3 ">
                 <div className="text-center">
-                    <h1> MAKE IT <br /> <Link to="/learnandcook"><button className="buttonnav">LEARN AND COOK </button></Link> </h1>
+                    <img className="logo" src={logo1} />
+                    <h1 className="colortextmakeit"> MAKE IT </h1>
+                    <Link to="/learnandcook"><button className="btn buttonlearnandcook">LEARN AND COOK </button></Link>
                 </div>
             </div>
         </div>

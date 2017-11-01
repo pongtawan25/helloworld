@@ -10,15 +10,30 @@
     font-family: UmpquaBold;
     src: url("./../fonts/UmpquaBold  (คำภาษาอังกฤษทั่วไป).otf")
 }
+
 .colortexthome{
     font-family: Artland;
-    color: white;
+    color:rgba(172, 172, 172, 0.4);
     font-size: 60px;
 }
-.button{
-    
+.colortextmakeit{
+    font-family: UmpquaBold;
+    color:white;
+    font-size: 60px;
+}
+.colortextlogin{
+    font-family: UmpquaBold;
+    color:white;
 }
 
+.buttonlearnandcook{
+    color: white;
+    font-size: 11px;
+    background-color: rgba(172, 172, 172, 0.4);
+    border-radius: 30px;
+    width: 120px;
+    height: 26px;
+}
 
 .btn-custom{
     color: white;
@@ -27,13 +42,14 @@
     border-radius: 30px;
     margin-top: 40px;
     width: 90px;
+    height: 26px;
 }
 .navv{
     position: absolute;
     width: 100vw;
 }
 
-.textboxhome{
+.bghome{
     justify-content: center;
     align-items: center;
     min-width: 100vw;
@@ -41,8 +57,33 @@
     background-image: url('./../img/home.jpg')   
 }
 
-.texthadeleft{
+.bgmakeit{
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: url('./../img/photo-1428515613728-6b4607e44363.jpg')   
+}
 
+.bgshareidea{
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: url('./../img/share idea.jpg')   
+}
+
+.bglearnandcook{
+    min-width: 100vw;
+    min-height: 100vh;
+    /* background-image: url('./../img/')       */
+}
+
+.bglogin{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: url('./../img/photo-1489806149968-aee262986b40.jpg') 
+}
+
+.texthadeleft{
     justify-content: left;
     align-items: center;
     min-width: 100vw;
@@ -58,19 +99,6 @@
     color: white ;
 }
 
-.buttonlearn{
-    font-weight : 200px ;
-    color: white ;
-    font-size: 25px;
-    background-color: rgba(red, green, blue, alpha)(172, 172, 172,50);
-    border-style :solid;
-    border-radius: 10px;
-    margin-top: 40px;
-    padding-right: 30px ;
-    padding-left: 30px ;
-    
-}
-
 .textboxtop{
     justify-content: center;
     align-items: center;
@@ -79,40 +107,15 @@
     color: white ;
 }
 
-.login {
-    justify-content: right;
-    align-items: center;
+.logo{
+    width: 150px;
+    margin-bottom: 20px;
+}
+.logologin{
+    width: 100px;
+    margin-bottom: 20px;
 }
 
-.bghome { 
-    background-image: url("./../img/home.jpg");
-    height: 97.5vh; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.bgsharidea { 
-    background-image: url("./../img/share idea.jpg");
-    height: 97.5vh; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.bgstartidea { 
-    background-image: url("./../img/let share.jpg");
-    height: 97.5vh; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.bginspiration{
-    background-image: url("./../img/share idea.jpg");
-    height: 97.5vh; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    min-width: 100vw;
+.imglearn1{
+    border-radius: 70%;
 }
