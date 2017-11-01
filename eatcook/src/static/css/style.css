@@ -10,6 +10,7 @@
     font-family: UmpquaBold;
     src: url("./../fonts/UmpquaBold  (คำภาษาอังกฤษทั่วไป).otf")
 }
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 
 
@@ -226,6 +227,9 @@
 /* Tan */
 
 /* Bosz */
+body{
+    font-family: 'Roboto', sans-serif;
+}
 .btn-login{
     color: #000000;
     font-size: 18px;
@@ -276,7 +280,7 @@
 }
 
 .height100{
-    padding-bottom: -50%;
+    padding-bottom: -200%;
     margin-bottom: -100%;
 }
 
