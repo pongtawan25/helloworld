@@ -15,9 +15,17 @@
 
 
 /* earth */
+.logoshare{
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+.logore{
+    padding-left: 90px;
+    padding-bottom: 20px;
+}
 .textwel{
     font-family: Artland;
-    color:rgba(172, 172, 172, 0.4);
+    color:rgba(172, 172, 172, 1.0);
     font-size: 60px;
     padding-top: 100px;
 }
@@ -30,14 +38,19 @@
     color: white;
     font-size: 18px;
 }
+.textyoueidea{
+    color:white;
+    font-size: 40px;
+    padding-bottom: 300px;
+}
 .btn-custom2{
     color: white;
-    font-size: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    font-size: 14px;
     background-color: rgba(172, 172, 172, 0.4);
     border-radius: 30px;
-    width: 180px;
+    padding-bottom: 28px;
+    width: 120px;
+    height: 26px;
 }
 .bghome{
     background-position: center;
@@ -50,6 +63,9 @@
     background-image: url('./../img/home.jpg')   
 }
 .bgyouridea{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     justify-content: center;
     align-items: center;
     min-width: 100vw;
@@ -63,15 +79,7 @@
     min-height: 100vh;
     background-image: url('./../img/share idea.jpg')  
 }
-.bgshareidea{
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    align-items: center;
-    min-width: 100vw;
-    min-height: 100vh;
-    background-image: url('./../img/share idea.jpg')   
-}
+
 .bgrewards{
     justify-content: center;
     align-items: center;
@@ -80,15 +88,67 @@
     background-image: url('./../img/photo-1498092590708-048e0e2f46d7.jpg')  
     
 }
-.paddingbot{
-    padding-bottom: 20px;
-}
+
 .bgstartidea { 
-    background-image: url("./../img/let share.jpg");
-    height: 97.5vh; 
+    background-image: url("./../img/อาหารแชร์1.jpg");
+    min-width: 20vw;
+    min-height: 100vh;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: rgb(24, 28, 51);
+}
+.bgsald{
+    background-image: url("./../img/6546.jpg");
+    min-width: 100vw;
+    min-height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgb(24, 28, 51);
+}
+ิ.bgdonut{
+    background-image: url("./../img/515.jpg");
+    min-width: 100vw;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(24, 28, 51);
+}
+.bgspagetti{
+    background-image: url("./../img/56498.jpg");
+    min-width: 100vw;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(24, 28, 51);
+}
+ิ.bgomelet{
+    background-image: url("./../img/519541591.jpg");
+    min-width: 100vw;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(24, 28, 51);
+}
+
+.paddingpicstart{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.textshareidea{
+    color: white;
+    font-size: 25px;
+    padding-right: 140px;
+}
+.paddingtopstart{
+    padding-top: 130px;
+    padding-right: 50px;
+
+}
+.textstartmanu{
+    color: white;
+    padding-top: 10px;
 }
 /* earth */
 

@@ -8,17 +8,18 @@ const Rewards = () => (
     <div>
         <Navbar />
         <div className="row bgrewards ">
-            <div className="col-sm-9 ">
-                <div className="col-sm-4 text-center ">
-                    <div className="paddingbot">
+        <div className="offset-md-1 col-md">
+                <div className="col-sm-3 text-center ">
+                    <div className="paddingbot logoshare ">
                         <img src={picrewards} width="140px" />
                     </div>
                     <h1 className="textcook">REWARDS</h1>
-                    <Link to="/youridea.js"><button className="btn btn-custom2">GOOD TASTE</button></Link>
+                    <div className="logoshare "> <Link to="/youridea.js"><button className="btn btn-custom2">GOOD TASTE</button></Link></div>
                 </div>
             </div>
         </div>
     </div>
+
 
 )
 
