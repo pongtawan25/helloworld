@@ -10,15 +10,33 @@
     font-family: UmpquaBold;
     src: url("./../fonts/UmpquaBold  (คำภาษาอังกฤษทั่วไป).otf")
 }
-.colortexthome{
+.textwel{
     font-family: Artland;
     color: white;
     font-size: 60px;
+    opacity: 0.7;
+    padding-top: 100px;
 }
-.button{
+.textcook{
+    font-family: UmpquaBold;
+    color: white;
+    font-size: 60px;
     
 }
+.textlet{
+    color: white;
+    font-size: 18px;
 
+}
+.btn-custom2{
+    color: white;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgba(172, 172, 172, 0.4);
+    border-radius: 30px;
+    width: 180px;
+}
 
 .btn-custom{
     color: white;
@@ -33,14 +51,35 @@
     width: 100vw;
 }
 
-.textboxhome{
+.bghome{
     justify-content: center;
     align-items: center;
     min-width: 100vw;
     min-height: 100vh;
     background-image: url('./../img/home.jpg')   
 }
-
+.bgsharidea { 
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: url('./../img/share idea.jpg')  
+}
+.bgyouridea{
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: url('./../img/let share.jpg')  
+}
+.bgrewards{
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: url('./../img/photo-1498092590708-048e0e2f46d7.jpg')  
+    
+}
 .texthadeleft{
 
     justify-content: left;
@@ -84,35 +123,6 @@
     align-items: center;
 }
 
-.bghome { 
-    background-image: url("./../img/home.jpg");
-    height: 97.5vh; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.bgsharidea { 
-    background-image: url("./../img/share idea.jpg");
-    height: 97.5vh; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.bgstartidea { 
-    background-image: url("./../img/let share.jpg");
-    height: 97.5vh; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.bginspiration{
-    background-image: url("./../img/share idea.jpg");
-    height: 97.5vh; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    min-width: 100vw;
+.paddingbot{
+    padding-bottom: 20px;
 }

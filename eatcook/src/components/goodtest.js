@@ -6,6 +6,7 @@ import './../static/css/style.css'
 
 const Goodtest = () => (
         <div>
+
         </div>
 )
 
