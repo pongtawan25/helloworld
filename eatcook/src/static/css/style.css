@@ -39,18 +39,12 @@
 }
 .textyoueidea{
     color:white;
-    font-size: 40px;
+    font-size: 30px;
     padding-bottom: 300px;
 }
 .btn-custom2{
     color: white;
-<<<<<<< HEAD
     font-size: 14px;
-=======
-    font-size: 18px;
-    padding-top: 5px;
-    padding-bottom: 5px;
->>>>>>> 213005cd09500cd9b3a65b347295d56b39e49388
     background-color: rgba(172, 172, 172, 0.4);
     border-radius: 30px;
     padding-bottom: 28px;
@@ -152,6 +146,7 @@
     padding-right: 50px;
 
 }
+
 .textstartmanu{
     color: white;
     padding-top: 10px;

@@ -10,8 +10,8 @@ const Rewards = () => (
         <div className="row bgrewards ">
         <div className="offset-md-1 col-md">
                 <div className="col-sm-3 text-center ">
-                    <div className="paddingbot logoshare ">
-                        <img src={picrewards} width="140px" />
+                    <div className=" logoshare ">
+                        <img src={picrewards} width="150px" />
                     </div>
                     <h1 className="textcook">REWARDS</h1>
                     <Link to="/goodtest"><button className="btn btn-custom2">GOOD TASTE</button></Link>
