@@ -37,7 +37,8 @@
     padding-bottom: 5px;
     background-color: rgba(172, 172, 172, 0.4);
     border-radius: 30px;
-    width: 180px;
+    margin-top: 40px;
+    width: 130px;
 }
 .bghome{
     background-position: center;
