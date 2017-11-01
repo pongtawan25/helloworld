@@ -5,7 +5,9 @@ import './../static/css/style.css'
 
 
 const Goodtest = () => (
+        
         <div>
+                <Navbar />
         </div>
 )
 

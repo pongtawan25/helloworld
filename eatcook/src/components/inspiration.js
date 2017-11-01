@@ -4,6 +4,7 @@ import './../static/css/style.css'
 
 
 const Inspiration = () => (
+    
     <div>
         <div className="row bginspiration">
             <div className="offset-md-1 col-md-4">

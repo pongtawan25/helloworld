@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom'
 import './../static/css/style.css'
 
 const Learnandcook = () => (
+   
     <div>
         <div className="row bglearnandcook">
             <div className="offset-md-3 col-md-6">

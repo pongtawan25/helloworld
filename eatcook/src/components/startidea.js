@@ -4,7 +4,9 @@ import './../static/css/style.css'
 import './../static/css/bootstrap.min.css'
 
 const Startidea = () => (
+    
     <div>
+        <Navbar />
         <div className="row text-right ">
             <div className="col-md-9 ">
                 <h4>  SHARE  YOUR  IDEA </h4>

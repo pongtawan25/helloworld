@@ -16,6 +16,7 @@
     color:rgba(172, 172, 172, 0.4);
     font-size: 60px;
 }
+<<<<<<< HEAD
 .colortextmakeit{
     font-family: UmpquaBold;
     color:white;
@@ -33,16 +34,25 @@
     border-radius: 30px;
     width: 120px;
     height: 26px;
+=======
+
+.colortexthomesub{
+    color: white;
+>>>>>>> 9924a0ca7bbf0151969dd4805a1ab2e3f01bc550
 }
 
 .btn-custom{
     color: white;
-    font-size: 11px;
+    font-size: 18px;
     background-color: rgba(172, 172, 172, 0.4);
     border-radius: 30px;
     margin-top: 40px;
+<<<<<<< HEAD
     width: 90px;
     height: 26px;
+=======
+    width: 140px;
+>>>>>>> 9924a0ca7bbf0151969dd4805a1ab2e3f01bc550
 }
 .navv{
     position: absolute;
@@ -180,6 +190,7 @@
     font-size: 50px;
 }
 
+<<<<<<< HEAD
 .textlearn{
     margin-top: 120px;
     font-family: UmpquaBold;
@@ -190,4 +201,28 @@
     border-radius: 70%;
     width: 340px;
     height: 340px;
+=======
+.btn-login{
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    margin-top: 40px;
+    width: 150px;
+}
+
+.login-bg-navbar{
+    background-color: #000000
+}
+
+.boxcenter {
+    padding: 40% 0;
+    border: 3px solid green;
+    position: center center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    
+>>>>>>> 9924a0ca7bbf0151969dd4805a1ab2e3f01bc550
 }
