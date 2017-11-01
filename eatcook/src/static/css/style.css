@@ -44,18 +44,12 @@
 }
 .btn-custom2{
     color: white;
-<<<<<<< HEAD
     font-size: 14px;
-=======
-    font-size: 18px;
-    padding-top: 5px;
-    padding-bottom: 5px;
->>>>>>> c2de8d5c70e17f748f0195d0d5ce5af6c1cfbd6b
     background-color: rgba(172, 172, 172, 0.4);
     border-radius: 30px;
     padding-bottom: 28px;
     height: 26px;
-    margin-top: 40px;
+    margin-top: 10px;
     width: 130px;
 }
 .bghome{
@@ -462,6 +456,7 @@ span.input-help > input {
     position: absolute;
     width: 100vw;
     z-index: 1;
+    padding-top: 30px;
 }
 
 
