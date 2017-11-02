@@ -8,16 +8,16 @@ const Startidea = () => (
 
     <div>
         <Navbar />
-        <div className="row bgstartidea text-right paddingtopstart">
+        <div className="row bgstartidea text-right paddingtopstart  animated fadeIn">
             <div className="col-md-12 ">
-                <h4 className="textshareidea">  SHARE  YOUR  IDEA </h4>
+                <h4 className="textshareidea animated fadeInUp">  SHARE  YOUR  IDEA </h4>
                 <div className="col-md-5 float-right">
                     <div class="form-group">
-                        <img className="paddingpicstart" src={picstart} width="150px" />
-                        <img className="paddingpicstart" src={picstart} width="150px" />
-                        <img className="paddingpicstart" src={picstart} width="150px" />
+                        <img className="paddingpicstart animated fadeInUp" src={picstart} width="150px" />
+                        <img className="paddingpicstart animated fadeInUp" src={picstart} width="150px" />
+                        <img className="paddingpicstart animated fadeInUp" src={picstart} width="150px" />
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
-                        <label className="textstartmanu" for="exampleFormControlTextarea1 ">START MENU </label>
+                        <label className="textstartmanu" for="exampleFormControlTextarea1 animated fadeInUp">START MENU </label>
                     </div>
                 </div>
             </div>

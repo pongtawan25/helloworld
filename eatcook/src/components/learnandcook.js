@@ -11,24 +11,24 @@ const Learnandcook = () => (
    
     <div>
             <Navbar />
-        <div className="row bglearnandcook">
+        <div className="row bglearnandcook  animated fadeIn">
             <div className="offset-md-3 col-md-6">
                 <div className="text-center">
-                    <h1 className="textlearn">LEARN and COOK</h1>
+                    <h1 className="textlearn animated fadeInUp">LEARN and COOK</h1>
                 </div>
             </div>
         </div>
         <div className="row">
             <div className="col-md-3">
-                <img className="imglearn" src={img1} />
+                <img className="imglearn animated fadeInUp" src={img1} />
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 animated fadeInUp">
                 <img className="imglearn" src={img2} />
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 animated fadeInUp">
                 <img className="imglearn" src={img3} />
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 animated fadeInUp">
                 <img className="imglearn" src={img4} />
             </div>
         </div>

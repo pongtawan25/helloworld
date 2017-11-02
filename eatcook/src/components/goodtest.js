@@ -10,11 +10,11 @@ const Goodtest = () => (
         <div>
                 <Navbar />
                 <div className="row bggoodtest">
-                        <div className="offset-md-2 col-md-6">
+                        <div className="offset-md-2 col-md-6 animated fadeInUp">
                                 <h2 className="textgoodtest">THE HEIGHEST VOTES IS</h2>
                                 <img className="img1 " src={img1} />
                         </div>
-                        <div className="offset-md-1 col-md-3">
+                        <div className="offset-md-1 col-md-3 animated fadeInUp">
                                 <h2 className="textgoodtest2">รางวัลประจำสัปดาห์</h2>
                                 <img className="img2" src={img2} />
                         </div>

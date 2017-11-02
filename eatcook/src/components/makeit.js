@@ -9,12 +9,12 @@ const Makeit = () => (
     
     <div>
         <Navbar />
-        <div className="row bgmakeit">
+        <div className="row bgmakeit  animated fadeIn">
             <div className="offset-md-8 col-md-3 ">
                 <div className="text-center">
-                    <img className="logo" src={logo1} />
-                    <h1 className="colortextmakeit"> MAKE IT </h1>
-                    <Link to="/learnandcook"><button className="btn buttonlearnandcook hvr-fadenavbar hvr-grow-shadow">LEARN AND COOK </button></Link>
+                    <img className="logo animated fadeInUp" src={logo1} />
+                    <h1 className="colortextmakeit animated fadeInUp"> MAKE IT </h1>
+                    <Link to="/learnandcook"><button className="btn buttonlearnandcook hvr-fadenavbar hvr-grow-shadow animated fadeInUp">LEARN AND COOK </button></Link>
                 </div>
             </div>
         </div>

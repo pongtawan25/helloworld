@@ -5,7 +5,7 @@ import './../static/css/bootstrap.min.css'
 import pichome from './../static/img/crossed-knife-and-fork.png'
 
 const Login = () => (
-  <div class="bgmainlogin">
+  <div class="">
     <div class="row">
         <div class="col-sm-8  bglogin bgmainlogin animated fadeInRight">
           <img className="picporklogin" src={pichome} />

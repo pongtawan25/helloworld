@@ -9,11 +9,11 @@ import Navbar from './navbar'
 const Shareidea = () => (
     <div>
         <Navbar />
-        <div className="row bgsharidea ">
+        <div className="row bgsharidea  animated fadeIn">
             <div className="offset-md-2 col-md">
-                    <img className="logoshare" src={picshare} width="170px" />
-                    <h1 className="textcook">SHARE</h1>
-                    <div className="logoshare "> <Link to="/youridea"><button className="btn btn-custom2 hvr-fadenavbar hvr-grow-shadow">YOUR IDEA</button></Link></div>
+                    <img className="logoshare  animated fadeInUp" src={picshare} width="170px" />
+                    <h1 className="textcook animated fadeInUp">SHARE</h1>
+                    <div className="logoshare "> <Link to="/youridea"><button className="btn btn-custom2 hvr-fadenavbar hvr-grow-shadow animated fadeInUp">YOUR IDEA</button></Link></div>
                 </div>
             </div>
         </div>
