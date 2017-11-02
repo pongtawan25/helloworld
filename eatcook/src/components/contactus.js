@@ -6,10 +6,10 @@ import img2 from './../static/img/location.png'
 const Contactus = () => (
     <div>
         <Navbar />
-        <div className="row bgcontactus">
+        <div className="row bgcontactus animated fadeIn">
             <div className="offset-md-3 col-md-3">
                 <div className="text-center">
-                    <div className="box">
+                    <div className="box animated fadeInUp">
                     <img className="logoconmem" src={img2} />
                     <h3>CONTACT US</h3>
                     </div>
@@ -17,7 +17,7 @@ const Contactus = () => (
             </div>
             <div className="col-md-3">
                 <div className="text-center">
-                    <div className="box">
+                    <div className="box animated fadeInUp">
                     <img className="logoconmem" src={img1} />
                     <h3>MEMBER</h3>
                     </div>

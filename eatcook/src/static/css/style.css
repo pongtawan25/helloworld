@@ -10,8 +10,11 @@
     font-family: UmpquaBold;
     src: url("./../fonts/UmpquaBold  (คำภาษาอังกฤษทั่วไป).otf")
 }
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
-
+body{
+    background-color: #000;
+}
 
 /* earth */
 .logoshare{
@@ -28,11 +31,11 @@
     font-size: 60px;
     padding-top: 100px;
 }
-.textcook{
+/* .textcook{
     font-family: UmpquaBold;
     color: white;
     font-size: 60px;
-}
+} */
 .textlet{
     color: white;
     font-size: 18px;
@@ -51,6 +54,29 @@
     height: 26px;
     margin-top: 10px;
     width: 130px;
+}
+.btn-nav{
+    color: white;
+    font-size: 12px;
+    background-color: rgba(172, 172, 172, 0.4);
+    border-radius: 30px;
+    padding-bottom: 23px;
+    height: 26px;
+    width: 130px;
+    margin-right: 10px;
+    /* margin-right: 10px; */
+}
+.btn-nav-login{
+    color: white;
+    font-size: 12px;
+    background-color:#000;
+    border-radius: 30px;
+    border: 1.4px solid rgba(219, 217, 217, 0.404);
+    padding-bottom: 23px;
+    height: 26px;
+    width: 100px;
+    margin-left: 40px;
+    
 }
 .bghome{
     background-position: center;
@@ -217,6 +243,9 @@
 /* Tan */
 
 /* Bosz */
+body{
+    font-family: 'Roboto', sans-serif;
+}
 .btn-login{
     color: #000000;
     font-size: 18px;
@@ -241,34 +270,46 @@
 
 .bglogin{
     text-align: center;    
+    padding-top: 20vh;
  
+}
+
+.picporklogin{
+    width: 80px;
+    margin-bottom: 30px;
 }
 .bgmainlogin{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('./../img/photo-1489806149968-aee262986b40.jpg')  
+    background-image: url('./../img/photo-1489806149968-aee262986b40.jpg')  ;
+    min-height: 100vh;
 }
 .textlogin{
     color:rgb(255, 255, 255);
-    font-size: 60px;
-    justify-content: center;
-    align-items: center;
+    font-size:55px;
+    font-family: UmpquaBold;
+    
+  
 
 }
+.textcook{
+    font-family: UmpquaBold;
+    color: white;
+    font-size: 60px;
+    
+}
+
 
 .bglogincomponent{
     background-color: #0E0D1E;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .textlogincomponent{
     text-align: center;
     color:rgb(255, 255, 255);
-}
-
-.height100{
-    padding-bottom: -50%;
-    margin-bottom: -100%;
 }
 
 marginlogologin{
@@ -480,6 +521,10 @@ span.input-help > input {
     width: 100vw;
     z-index: 1;
     padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
 }
 
 
