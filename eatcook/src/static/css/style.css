@@ -514,6 +514,11 @@ span.input-help > input {
     margin-bottom: 20px;
     margin-top: 50px;
 }
+.textreword{
+    font-family: UmpquaBold;
+    color: white;
+    font-size: 60px
+}
 /* Arm */
 .btn-custom{
     color: white;
