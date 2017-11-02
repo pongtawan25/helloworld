@@ -107,7 +107,6 @@
 }
 ิ.bgdonut{
     background-image: url("./../img/515.jpg");
-    min-width: 100vw;
     min-height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -115,14 +114,6 @@
 }
 .bgspagetti{
     background-image: url("./../img/56498.jpg");
-    min-width: 100vw;
-    min-height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: rgb(24, 28, 51);
-}
-ิ.bgomelet{
-    background-image: url("./../img/519541591.jpg");
     min-width: 100vw;
     min-height: 100vh;
     background-position: center;
@@ -196,7 +187,7 @@
 }
 
 .imglearn{
-    border-radius: 70%;
+    border-radius: 50%;
     width: 340px;
     height: 340px;
 }

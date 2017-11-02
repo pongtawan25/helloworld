@@ -11,6 +11,11 @@ import Learnandcook from './components/learnandcook'
 import Startidea from './components/startidea'
 import Goodtest from './components/goodtest'
 import Login from './components/login'
+import Omelet from './components/omelet'
+import Donut from './components/donut'
+import Salad from './components/salad'
+import Spagetti from './components/spagetti'
+
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 const App = () => (
@@ -29,6 +34,10 @@ const App = () => (
         <Route path="/startidea" component={Startidea} />
         <Route path="/goodtest" component={Goodtest} />
         <Route path="/login" component={Login} />
+        <Route path="/omelet.js" component={Omelet} />
+        <Route path="/donut.js" component={Donut} />
+        <Route path="/salad.js" component={Salad} />
+        <Route path="/spagetti.js" component={Spagetti} />
         </div>
       </div>
     </Router>

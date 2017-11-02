@@ -8,9 +8,9 @@ import Navbar from './navbar'
 import './../static/css/style.css'
 
 const Learnandcook = () => (
-   
+
     <div>
-            <Navbar />
+        <Navbar />
         <div className="row bglearnandcook">
             <div className="offset-md-3 col-md-6">
                 <div className="text-center">
@@ -20,16 +20,16 @@ const Learnandcook = () => (
         </div>
         <div className="row">
             <div className="col-md-3">
-                <img className="imglearn" src={img1} />
+                <Link to="/omelet.js"><button> <img className="imglearn" src={img1} /></button></Link>
             </div>
             <div className="col-md-3">
-                <img className="imglearn" src={img2} />
+                <Link to="/spagetti"><button><img className="imglearn" src={img2} /></button> </Link>
             </div>
             <div className="col-md-3">
-                <img className="imglearn" src={img3} />
+                <Link to="/salad"><button><img className="imglearn" src={img3} /></button> </Link>
             </div>
             <div className="col-md-3">
-                <img className="imglearn" src={img4} />
+                <Link to="/donut"><button><img className="imglearn" src={img4} /></button> </Link>
             </div>
         </div>
     </div>
