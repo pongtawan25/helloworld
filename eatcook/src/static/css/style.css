@@ -234,6 +234,10 @@ body{
     height: 250px;
     margin-top: 80px;
 }
+.imglearn:hover{
+    width: 260px;
+    height: 260px;
+}
 .bggoodtest{
     background-repeat: no-repeat;
     background-position: left;
