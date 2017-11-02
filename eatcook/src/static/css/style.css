@@ -230,8 +230,9 @@ body{
 
 .imglearn{
     border-radius: 50%;
-    width: 340px;
-    height: 340px;
+    width: 250px;
+    height: 250px;
+    margin-top: 80px;
 }
 .bggoodtest{
     background-repeat: no-repeat;
