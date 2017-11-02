@@ -13,7 +13,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body{
-    background-color: #000;
+    background-color: #151424;
 }
 
 /* earth */
@@ -134,7 +134,9 @@ body{
     background-color: rgb(24, 28, 51);
 }
 .bgmanu{
-    padding-left: 50px;
+    padding-top: 30px;
+    margin-top: 60px;
+    background-color: #151424;
 }
 .bgsald{
     background-image: url("./../img/6546.jpg");
