@@ -34,10 +34,10 @@ const App = () => (
         <Route path="/startidea" component={Startidea} />
         <Route path="/goodtest" component={Goodtest} />
         <Route path="/login" component={Login} />
-        <Route path="/omelet.js" component={Omelet} />
-        <Route path="/donut.js" component={Donut} />
-        <Route path="/salad.js" component={Salad} />
-        <Route path="/spagetti.js" component={Spagetti} />
+        <Route path="/omelet" component={Omelet} />
+        <Route path="/donut" component={Donut} />
+        <Route path="/salad" component={Salad} />
+        <Route path="/spagetti" component={Spagetti} />
         </div>
       </div>
     </Router>

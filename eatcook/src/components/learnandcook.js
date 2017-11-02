@@ -7,10 +7,11 @@ import { Link } from 'react-router-dom'
 import Navbar from './navbar'
 import './../static/css/style.css'
 
+
 const Learnandcook = () => (
 
     <div>
-            <Navbar />
+        <Navbar />
         <div className="row bglearnandcook  animated fadeIn">
             <div className="offset-md-3 col-md-6">
                 <div className="text-center">
@@ -20,16 +21,16 @@ const Learnandcook = () => (
         </div>
         <div className="row">
             <div className="col-md-3">
-                <img className="imglearn animated fadeInUp" src={img1} />
+                <Link to="/omelet"><img className="imglearn animated fadeInUp" src={img1} /></Link>
             </div>
-            <div className="col-md-3 animated fadeInUp">
-                <img className="imglearn" src={img2} />
+            <div className="col-md-3">
+                <Link to="/spagetti"><img className="imglearn animated fadeInUp" src={img2} /></Link>
             </div>
-            <div className="col-md-3 animated fadeInUp">
-                <img className="imglearn" src={img3} />
+            <div className="col-md-3">
+            <Link to="/salad"><img className="imglearn animated fadeInUp" src={img3} /></Link>
             </div>
-            <div className="col-md-3 animated fadeInUp">
-                <img className="imglearn" src={img4} />
+            <div className="col-md-3">
+            <Link to="/donut"><img className="imglearn animated fadeInUp" src={img4} /></Link>
             </div>
         </div>
     </div>

@@ -123,6 +123,9 @@ body{
     background-repeat: no-repeat;
     background-color: rgb(24, 28, 51);
 }
+.bgmanu{
+    padding-left: 50px;
+}
 .bgsald{
     background-image: url("./../img/6546.jpg");
     min-width: 100vw;
@@ -167,6 +170,9 @@ body{
 .textstartmanu{
     color: white;
     padding-top: 10px;
+}
+.buntonback{
+    padding-top: 50px;
 }
 /* earth */
 
