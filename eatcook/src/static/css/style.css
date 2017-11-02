@@ -43,7 +43,7 @@ body{
 .textyoueidea{
     color:white;
     font-size: 30px;
-    padding-bottom: 300px;
+    padding-bottom: 350px;
 }
 .btn-custom2{
     color: white;
@@ -149,14 +149,14 @@ body{
 
 .paddingpicstart{
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 100px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 .textshareidea{
     color: white;
     font-size: 25px;
-    padding-right: 140px;
+    padding-right: 200px;
 }
 .paddingtopstart{
     padding-top: 130px;
@@ -233,12 +233,14 @@ body{
 }
 .textgoodtest{
     color: white;
-    margin-top: 120px;
+    margin-top: 180px;
+    padding-left: 70px;
 }
 .textgoodtest2{
     font-family: Bangna;
     color: black;
-    margin-top: 200px;
+    margin-top: 250px;
+    
 }
 /* Tan */
 
