@@ -55,6 +55,16 @@ body{
     margin-top: 10px;
     width: 130px;
 }
+.btn-custom3{
+    color: white;
+    font-size: 14px;
+    background-color: rgba(172, 172, 172, 0.4);
+    border-radius: 30px;
+    padding-bottom: 28px;
+    height: 26px;
+    margin-top: 10px;
+    width: 150px;
+}
 .btn-nav{
     color: white;
     font-size: 12px;
@@ -206,7 +216,7 @@ body{
     background-size: cover;
     min-width: 100vw;
     min-height: 40vh;
-    background-color: rgb(0, 0, 43);
+    background-color: rgb(11, 11, 36);
 }
 .logo{
     width: 150px;

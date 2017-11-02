@@ -14,7 +14,7 @@ const Makeit = () => (
                 <div className="text-center">
                     <img className="logo animated fadeInUp" src={logo1} />
                     <h1 className="colortextmakeit animated fadeInUp"> MAKE IT </h1>
-                    <Link to="/learnandcook"><button className="btn buttonlearnandcook hvr-fadenavbar hvr-grow-shadow animated fadeInUp">LEARN AND COOK </button></Link>
+                    <Link to="/learnandcook"><button className="btn btn-custom3 hvr-fadenavbar hvr-grow-shadow animated fadeInUp">LEARN AND COOK </button></Link>
                 </div>
             </div>
         </div>
