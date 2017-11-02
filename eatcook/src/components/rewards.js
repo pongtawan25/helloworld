@@ -14,7 +14,7 @@ const Rewards = () => (
                     </div>
                     <img className= "logore  animated fadeInUp" src={picrewards} width="160px" />
                     <h1 className="textreword animated fadeInUp">REWARDS</h1>
-                    <button className="btn btn-custom2 hvr-fadenavbar hvr-grow-shadow animated fadeInUp">GOOD TASTE</button>
+                    {<Link to="/goodtest"><button className="btn btn-custom2 hvr-fadenavbar hvr-grow-shadow animated fadeInUp">GOOD TASTE</button></Link>}
                 </div>
             </div>
         </div>
