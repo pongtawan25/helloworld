@@ -9,11 +9,11 @@ const Rewards = () => (
         <Navbar />
         <div className="row bgrewards  animated fadeIn">
         <div className="offset-md-2 col-md">
-                <div className="col-sm-3 text-center ">
+                <div className="col-md-4 text-center ">
                     <div className=" logoshare ">
                     </div>
                     <img className= "logore  animated fadeInUp" src={picrewards} width="160px" />
-                    <h1 className="textcook animated fadeInUp">REWARDS</h1>
+                    <h1 className="textreword animated fadeInUp">REWARDS</h1>
                     <Link to="/goodtest"><button className="btn btn-custom2 hvr-fadenavbar hvr-grow-shadow animated fadeInUp">GOOD TASTE</button></Link>
                 </div>
             </div>
