@@ -9,9 +9,6 @@ const Omelet = () => (
     <div>
         <Navbar />
         <div className="row text-center">
-            <div className=" offset-md-6 col-md-10 buntonback  ">
-                <Link to="/learnandcook"><button className=" btn btn-backtohome hvr-icon-back hvr-grow-shadow">Back to page</button></Link>
-            </div>
             <img className="bgmanu" src={omelet} />
         </div>
     </div>
