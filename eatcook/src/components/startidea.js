@@ -13,8 +13,7 @@ const Startidea = () => (
                 <h4 className="textshareidea animated fadeInUp">  SHARE  YOUR  IDEA </h4>
                 <div className="col-md-5 float-right">
                     <div class="form-group">
-                        <img className="paddingpicstart animated fadeInUp" src={picstart} width="250px" />
-                        <img className="paddingpicstart animated fadeInUp" src={picstart} width="250px" />
+                        <img className="paddingpicstart animated fadeInUp" src={picstart} width="320px" />
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
                         <label className="textstartmanu" for="exampleFormControlTextarea1 animated fadeInUp">START MENU </label>
                     </div>
