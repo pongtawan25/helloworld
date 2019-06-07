@@ -242,17 +242,9 @@ body{
 }
 .bggoodtest{
     background-repeat: no-repeat;
-    /* background-position: left; */
-    /* background-size: cover; */
-    height: 100vh;
-    position: absolute;
-    right: 520px;
-    
+    background-position: left;
+    min-height: 100vh;
     background-image: url('./../img/photo-1507048331197-7d4ac70811cf.jpg')
-}
-.tt{
-    position: absolute;
-    right: -400px;
 }
 .img1{
     width: 500px;
