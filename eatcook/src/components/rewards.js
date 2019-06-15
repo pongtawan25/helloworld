@@ -14,11 +14,7 @@ const Rewards = () => (
                     </div>
                     <img className= "logore  animated fadeInUp" src={picrewards} width="160px" />
                     <h1 className="textreword animated fadeInUp">REWARDS</h1>
-<<<<<<< HEAD
                     <Link to="/goodtest"><button className="btn btn-custom2 hvr-fadenavbar hvr-grow-shadow animated fadeInUp">GOOD TASTE</button></Link>
-=======
-                    <button className="btn btn-custom2 hvr-fadenavbar hvr-grow-shadow animated fadeInUp">GOOD TASTE</button>
->>>>>>> parent of 7c22a8e... Merge pull request #11 from pongtawan25/dev
                 </div>
             </div>
         </div>
