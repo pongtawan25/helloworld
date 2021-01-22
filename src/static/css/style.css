@@ -1,0 +1,571 @@
+@font-face{
+    font-family: Artland;
+    src: url("./../fonts/Artland Vintage  (ใส่ตรงคำว่า welcome to อันเดียว).ttf")
+}
+@font-face{
+    font-family: Bangna;
+    src: url("./../fonts/bangna-new  (ภาษาไทย).ttf")
+}
+@font-face{
+    font-family: UmpquaBold;
+    src: url("./../fonts/UmpquaBold  (คำภาษาอังกฤษทั่วไป).otf")
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+    background-color: #151424;
+}
+
+/* earth */
+.logoshare{
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+.logore{
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.textwel{
+    font-family: Artland;
+    color:rgba(172, 172, 172, 1.0);
+    font-size: 60px;
+    padding-top: 100px;
+}
+/* .textcook{
+    font-family: UmpquaBold;
+    color: white;
+    font-size: 60px;
+} */
+.textlet{
+    color: white;
+    font-size: 18px;
+}
+.textyoueidea{
+    color:white;
+    font-size: 30px;
+    padding-bottom: 350px;
+}
+.btn-custom2{
+    color: white;
+    font-size: 14px;
+    background-color: rgba(172, 172, 172, 0.4);
+    border-radius: 30px;
+    padding-bottom: 28px;
+    height: 26px;
+    margin-top: 10px;
+    width: 130px;
+}
+.btn-custom3{
+    color: white;
+    font-size: 14px;
+    background-color: rgba(172, 172, 172, 0.4);
+    border-radius: 30px;
+    padding-bottom: 28px;
+    height: 26px;
+    margin-top: 10px;
+    width: 150px;
+}
+.btn-nav{
+    color: white;
+    font-size: 12px;
+    background-color: rgba(172, 172, 172, 0.4);
+    border-radius: 30px;
+    padding-bottom: 23px;
+    height: 26px;
+    width: 130px;
+    margin-right: 10px;
+    /* margin-right: 10px; */
+}
+.btn-nav-login{
+    color: white;
+    font-size: 12px;
+    background-color:#000;
+    border-radius: 30px;
+    border: 1.4px solid rgba(219, 217, 217, 0.404);
+    padding-bottom: 23px;
+    height: 26px;
+    width: 100px;
+    margin-left: 40px;
+    
+}
+.bghome{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: url('./../img/home.jpg')   
+}
+.bgyouridea{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: url('./../img/let share.jpg')  
+}
+.bgsharidea { 
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: url('./../img/share idea.jpg')  
+}
+
+.bgrewards{
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: url('./../img/photo-1498092590708-048e0e2f46d7.jpg')  
+    
+}
+
+.bgstartidea { 
+    background-image: url("./../img/อาหารแชร์1.jpg");
+    min-width: 20vw;
+    min-height: 100vh;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: rgb(24, 28, 51);
+}
+.bgmanu{
+    padding-top: 30px;
+    margin-top: 60px;
+    background-color: #151424;
+}
+.bgsald{
+    background-image: url("./../img/6546.jpg");
+    min-width: 100vw;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(24, 28, 51);
+}
+ิ.bgdonut{
+    background-image: url("./../img/515.jpg");
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(24, 28, 51);
+}
+.bgspagetti{
+    background-image: url("./../img/56498.jpg");
+    min-width: 100vw;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(24, 28, 51);
+}
+
+.paddingpicstart{
+    padding-left: 20px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.textshareidea{
+    color: white;
+    font-size: 30px;
+    padding-right: 90px;
+}
+.paddingtopstart{
+    padding-top: 130px;
+    padding-right: 50px;
+
+}
+
+.textstartmanu{
+    color: white;
+    padding-top: 10px;
+}
+.buntonback{
+    padding-top: 50px;
+}
+/* earth */
+
+
+/* Tan */
+.colortextmakeit{
+    font-family: UmpquaBold;
+    color:white;
+    font-size: 60px;
+}
+.buttonlearnandcook{
+    color: white;
+    font-size: 11px;
+    background-color: rgba(172, 172, 172, 0.4);
+    border-radius: 30px;
+    width: 120px;
+    height: 26px;
+}
+.bgmakeit{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: url('./../img/photo-1428515613728-6b4607e44363.jpg')   
+}
+.bglearnandcook{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100vw;
+    min-height: 40vh;
+    background-color: rgb(11, 11, 36);
+}
+.logo{
+    width: 150px;
+    margin-bottom: 20px;
+}
+.textlearn{
+    margin-top: 120px;
+    font-family: UmpquaBold;
+    color: white;
+}
+
+.imglearn{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-top: 80px;
+}
+.imglearn:hover{
+    width: 260px;
+    height: 260px;
+}
+.bggoodtest{
+    background-repeat: no-repeat;
+    background-position: left;
+    min-height: 100vh;
+    background-image: url('./../img/photo-1507048331197-7d4ac70811cf.jpg')
+}
+.img1{
+    width: 500px;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+}
+.img2{
+    width: 300px;
+}
+.textgoodtest{
+    color: white;
+    margin-top: 180px;
+    padding-left: 70px;
+}
+.textgoodtest2{
+    font-family: Bangna;
+    color:white;
+    margin-top: 250px;
+    
+}
+/* Tan */
+
+/* Bosz */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.btn-login{
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    margin-top: 10px;
+    width: 150px;
+}
+
+.btn-backtohome{
+    color: black;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    margin-top: 40px;
+    width: 200px;
+}
+
+
+.bglogin{
+    text-align: center;    
+    padding-top: 20vh;
+ 
+}
+
+.picporklogin{
+    width: 80px;
+    margin-bottom: 30px;
+}
+.bgmainlogin{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./../img/photo-1489806149968-aee262986b40.jpg')  ;
+    min-height: 100vh;
+}
+.textlogin{
+    color:rgb(255, 255, 255);
+    font-size:55px;
+    font-family: UmpquaBold;
+    
+  
+
+}
+.textcook{
+    font-family: UmpquaBold;
+    color: white;
+    font-size: 60px;
+    
+}
+
+
+.bglogincomponent{
+    background-color: #0E0D1E;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.textlogincomponent{
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+
+marginlogologin{
+    margin-top: 200px;
+}
+
+span.input-icon, span.input-help {
+	display: block;
+	position: relative;
+}
+.input-icon > input {
+	padding-left: 25px;
+	padding-right: 6px;
+}
+.input-icon.input-icon-right > input {
+	padding-left: 6px;
+	padding-right: 25px;
+}
+span.input-help > input {
+	padding-left: 30px;
+	padding-right: 6px;
+}
+.input-icon > [class*="fa-"], .input-icon > [class*="clip-"] {
+	bottom: 0;
+	color: #909090;
+	display: inline-block;
+	font-size: 14px;
+	left: 5px;
+	line-height: 35px;
+	padding: 0 3px;
+	position: absolute;
+	top: 0;
+	z-index: 2;
+}
+
+.input-icon.input-icon-right > [class*="fa-"], .input-icon.input-icon-right > [class*="clip-"] {
+	left: auto;
+	right: 4px;
+}
+.input-icon > input:focus + [class*="fa-"], .input-icon > input:focus + [class*="clip-"] {
+	color: #557799;
+}
+
+.hvr-fadelogin {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+  }
+  .hvr-fadelogin:hover, .hvr-fadelogin:focus, .hvr-fadelogin:active {
+    background-color: #2098D1;
+    color: white;
+  }
+
+  .hvr-icon-back {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;
+    padding-left: 2.2em;
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+  }
+  .hvr-icon-back:before {
+    content: "\f060";
+    position: absolute;
+    left: 1em;
+    padding: 0 1px;
+    font-family: FontAwesome;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-icon-back:hover:before, .hvr-icon-back:focus:before, .hvr-icon-back:active:before {
+    -webkit-transform: translateX(-4px);
+    transform: translateX(-4px);
+  }
+
+  .hvr-fadenavbar {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+  }
+  .hvr-fadenavbar:hover, .hvr-fadenavbar:focus, .hvr-fadenavbar:active {
+    background-color:#000000;
+    color: white;
+  }
+
+  .hvr-border-fadenavbar {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+    box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px transparent;
+    /* Hack to improve aliasing on mobile/tablet devices */
+  }
+
+  .hvr-border-fadenavbar:hover, .hvr-border-fadenavbar:focus, .hvr-border-fadenavbar:active {
+    box-shadow: inset 0 0 0 4px #FFFFFF, 0 0 1px transparent;
+    /* Hack to improve aliasing on mobile/tablet devices */
+  }
+
+  .hvr-grow-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+  }
+  .hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+
+/* Bosz */
+
+
+
+/* Arm */
+.bginspiration{
+    background-image: url("./../img/aaaa.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.insfont{
+    font-size: 30px;
+}
+.box{
+    margin-top: 200px;
+    background-color: rgb(0, 0, 43);
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    color: white;
+}
+.ff{
+    color: #fff;
+}
+.bgcontactus{
+    background-image: url("./../img/bbb.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    min-width: 100vw;
+}
+.inshead{
+    color: #fff;
+    margin-top: 150px;
+    margin-left: 40px;
+    font-size: 30px;
+}
+.test{
+    color: white;
+    font-family: Bangna;
+    margin-left: 40px;
+}
+.logoconmem{
+    height: 80px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.textreword{
+    font-family: UmpquaBold;
+    color: white;
+    font-size: 60px
+}
+/* Arm */
+.btn-custom{
+    color: white;
+    font-size: 18px;
+    background-color: rgba(172, 172, 172, 0.4);
+    border-radius: 30px;
+    margin-top: 40px;
+    width: 90px;
+    height: 26px;
+    width: 140px;
+}
+.navv{
+    position: absolute;
+    width: 100vw;
+    z-index: 1;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
